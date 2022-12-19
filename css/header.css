@@ -1,0 +1,163 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+body{
+	font-family: "Gotahm", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Gotham', sans-serif;
+}
+
+.sidebar{
+	position: fixed;
+	width: 290px;
+	height: 100%;
+	left: 0;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-color: #242531;
+	transition: all 0.5s ease;
+}
+
+.sidebar.active{
+	width: 100px;
+}
+
+.sidebar.active .nav_links{
+	margin-top: 80px;
+}
+
+.sidebar ul li a{
+	display: block;
+	height: 70%;
+	width: 75%;
+	margin-top: 20px;
+	margin-left: 25px;
+	line-height: 55px;
+	font-size: 22px;
+	color: #5F6078;
+	padding: 0 40px 0 10px;
+	box-sizing: border-box;
+	transition: .4s;
+	border-radius: 40px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+ul li:hover a{
+	background-color: #2091BC;
+	color: #1D1F26;
+}
+
+.sidebar.active ul li a{
+	padding: 0;
+	width: 50%;
+	border-radius: 20px;
+}
+
+.sidebar.active .links_name{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.sidebar .links_name{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.sidebar ul li .tooltip{
+	position: absolute;
+	left: 120px;
+	transform: translateY(-120%);
+	border-radius: 6px;
+	height: 35px;
+	width: 120px;
+	background: #fff;
+	line-height: 35px;
+	text-align: center;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: 0s;
+	font-size: 15px;
+	display: none;
+}
+
+.sidebar.active ul li .tooltip{
+	display: block;
+	pointer-events: none;
+}
+
+.sidebar ul li:hover .tooltip{
+	transition: all 0.5s ease;
+	opacity: 1;
+}
+
+.logo{
+	cursor: pointer;
+	margin-left: 27px;
+	width: 75%;
+	opacity: 1;
+	pointer-events: none;
+}
+
+.sidebar.active .logo{
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+.sidebar #btn{
+	position: absolute;
+	font-size: 43px;
+	color: #5F6078;
+	top: 47px;
+	left: 88%;
+	line-height: 50px;
+	cursor: pointer;
+	transform: translateX(-50%);
+}
+
+.sidebar.active #btn{
+	left: 40%;
+}
+
+.fa-solid{
+	margin-right: 7px;
+	margin-left: 10px;
+}
+
+.sidebar.active ~ .cachota{
+	margin-left: 140px;
+	transition: all 0.5s ease;
+}
+
+.sidebar.active ~ .cachota #panel{
+	width: calc(80% - 170px);
+}
+
+.sidebar.active ~ .cachota .teste{
+	left: 155px;
+	transition: all 0.5s ease;
+}
+
+.sidebar.active ~ .cachota .ftop{
+	left: 195px;
+	transition: all 0.5s ease;
+}
+
+
+.sidebar.active ~ .cachita{
+	margin-left: 140px;
+	transition: all 0.5s ease;
+}
+
+.sidebar.active ~ .cachita .prof img{
+	margin-left: 490px;
+	transition: all 0.5s ease;
+}

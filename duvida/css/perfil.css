@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+}
+
+#perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+#banner {
+    width: 1500px;
+    height: 500px;
+    /* border-radius: 300px; */
+}

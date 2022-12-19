@@ -1,0 +1,11 @@
+.categoria{
+	width: calc(30%);
+	color: #5F6078;
+	position: absolute;
+}
+
+.exemplo{
+	padding-left: calc(50%);
+	color: #5F6078;
+}
+

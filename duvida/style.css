@@ -1,0 +1,144 @@
+/* meu css é horrivel */
+@import url('http://fonts.cdnfonts.com/css/gotham');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #1D1E26;
+}
+
+#panel{
+    background-color: #242531;
+    width: calc(70%);
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    box-shadow: #17181F 0px 0px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.panel{
+    background-color: #242531;
+    width: calc(80%);
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    box-shadow: #17181F 0px 0px 15px;
+    border-radius: 30px;
+
+}
+
+#panel:hover{
+    background-color: #383A4D;
+}
+
+.titulo{
+    text-decoration: none;
+    font-family: "Gotahm", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #5F6078;
+
+}
+
+.cachota{
+    margin-left: 350px;
+    transition: all 0.5s ease;
+}
+
+.descricao{
+    font-size: 18px;
+
+}
+
+.foto{
+    border-radius: 20px;
+    width: calc(95%);
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    padding: 10px 10px;
+    padding-bottom: 40px; 
+}
+
+h1{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+a{
+    font-family: 'Gotham', sans-serif;
+    font-size: 20px;
+
+}
+
+#curtir{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#comentario{
+    padding: 10px;
+    outline: none;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+
+#comentar_botao{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+p{
+    padding: 7px;
+}
+
+b{
+    padding-left: 10px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#linguagem, #pesquisar_linguagem{
+    padding: 10px;
+    outline: none;
+    border: 1px;
+    border-style: solid;
+    border-color: #5F6078;
+    border-radius: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #5F6078;
+}

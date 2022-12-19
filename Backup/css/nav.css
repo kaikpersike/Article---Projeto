@@ -1,0 +1,42 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+*{
+	font-family: 'Gotham', sans-serif;
+
+}
+
+#nav{
+	position: fixed;
+	font-family: 'Gotham', sans-serif;
+	font-size: 20px;
+	width: 250px;
+	height: auto;
+	right: 0;
+	margin-top: 40px;
+}
+
+.tbZebra{
+	text-align: center;
+}
+
+.tbZebra tr th{ /*Acessa o Table Head*/
+	padding: 15px; /*Espaçamento de 5PX*/
+	color: #3f4050;
+	width: 250px;
+	text-align: center;
+}	
+
+.tbZebra tbody tr{ /*Acessa as linhas do tbody*/
+	padding: 50px; /*Espaçamento de 5PX*/
+	color: #3f4050;
+	height: 70px;
+}
+
+/*
+even = Ímpar, a cada linha onde for valor Ímpar
+odd  = Par, a cada linha onde o valor for Par
+*/
+/*
+.tbZebra tbody tr:nth-child(even){
+	background-color: #fff; 
+}
+*/

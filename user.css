@@ -1,0 +1,76 @@
+/* meu css é horrivel */
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #1D1E26;
+}
+
+#panel{
+    background-color: #242531;
+    width: calc(80%);
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    box-shadow: #17181F 0px 0px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#panel:hover{
+    background-color: #383A4D;
+}
+
+.titulo{
+    text-decoration: none;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #5F6078;
+}
+
+.cachota{
+    margin-left: 350px;
+    transition: all 0.5s ease;
+}
+
+.cachita{
+    margin-left: 270px;
+    transition: all 0.5s ease;
+}
+
+.descricao{
+    font-size: 18px;
+    color: #696969;
+}
+
+.foto{
+    border-radius: 20px;
+    width: calc(80%);
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    padding: 10px 10px;
+    padding-bottom: 40px; 
+}
+
+h1{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #5F6078;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+a{
+    font-family: 'Gotham', sans-serif;
+    font-size: 20px;
+    color: #5F6078;
+}

@@ -1,0 +1,41 @@
+.professores{
+    margin-left: 100px;
+}
+
+.professores img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 100px 10px 0 10px;
+    border-radius: 100%;
+
+}
+
+.prof img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 10px 10px 0 430px;
+    border-radius: 100%;
+
+}
+
+.prof h1{
+	font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #5F6078;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.prof h2{
+	font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #5F6078;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
